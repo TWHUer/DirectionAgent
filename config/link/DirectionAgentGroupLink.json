@@ -1,0 +1,10 @@
+{
+  "group": "DirectionAgentGroup",
+  "links": [
+    {
+      "source": "start",
+      "target": "DirectionAgentGroup/DirectionAgent",
+      "type": "hard"
+    }
+  ]
+}

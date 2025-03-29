@@ -1,0 +1,31 @@
+{
+    "id": "DirectionAgent",
+    "name": "DirectionAgent",
+    "description": "导航智能体",
+    "title": "导航智能体",
+    "keywords": [
+        "导航"
+    ],
+    "manual": "http://wechat.com/xxxx.html",
+    "model": "gpt-3.5-turbo",
+    "params": [
+        {
+            "name": "task",
+            "title": "task",
+            "type": "string",
+            "notnull": true,
+            "description": "导航任务描述",
+            "defaultValue": ""
+        }
+    ],
+    "results": [
+        {
+            "name": "result",
+            "title": "result",
+            "type": "string",
+            "notnull": true,
+            "description": "导航任务结果",
+            "defaultValue": ""
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+# graph 名称
+name: "DirectionAgentService"
+
+# graph 详细描述
+description: "地图导航智能体可以接收导航任务，并返回导航信息"
+
+# 为了完成任务的计划，通过调用 group 完成任务
+groups:
+  - DirectionAgentGroup
+
+# 任务执行过程中的上下文信息（如返回值等），用于 group 之间的信息传递
+context:
+  - name: "task"
+    type: "str"
+  - name: "result"
+    type: "str"

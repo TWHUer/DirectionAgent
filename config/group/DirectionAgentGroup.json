@@ -1,0 +1,32 @@
+{
+  "id":"DirectionAgentGroup",
+  "name": "DirectionAgentGroup",
+  "type":"python",
+  "title":"地图导航",
+  "description":"根据任务生成导航信息，并返回",
+  "prompt": "",
+  "keywords": ["地图", "导航"],
+  "reference":"http://xxx/Scheduling/机器ID",
+  "manual":"http://wechat.com/xxxx.html",
+  "agents": ["DirectionAgent"],
+  "params":[
+    { 
+      "title":"task",
+      "name":"task",
+      "type":"String", 
+      "notnull":true, 
+      "description": "导航任务",
+      "defaultValue":"" 
+    }
+  ],
+  "results":[
+    { 
+      "title":"result",
+      "name":"result",
+      "type":"String", 
+      "notnull":true, 
+      "description":"导航任务结果",
+      "defaultValue":"" 
+    }
+  ]
+}
