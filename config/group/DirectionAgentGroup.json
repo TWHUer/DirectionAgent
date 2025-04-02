@@ -1,7 +1,7 @@
 {
   "id":"DirectionAgentGroup",
   "name": "DirectionAgentGroup",
-  "type":"python",
+  "type":"agent",
   "title":"地图导航",
   "description":"根据任务生成导航信息，并返回",
   "prompt": "",
